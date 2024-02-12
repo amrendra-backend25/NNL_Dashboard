@@ -1,0 +1,48 @@
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 125%;
+  color: var(--mdb-modal-color);
+  pointer-events: auto;
+  background-color: var(--mdb-modal-bg);
+  background-clip: padding-box;
+  border: var(--mdb-modal-border-width) solid var(--mdb-modal-border-color);
+  border-radius: var(--mdb-modal-border-radius);
+  box-shadow: var(--mdb-modal-box-shadow);
+  outline: 0;
+}
+
+.text-center {
+  text-align: center !important;
+  margin-top: -30px;
+}
+.mb-4 {
+  margin-bottom: 2rem !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+  padding-top: 2px;
+  padding-right: 18px;
+}
+
+.col-md-9 {
+  margin-left: -55px;
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.table {
+  caption-side: bottom;
+  border-collapse: collapse;
+  margin-left: -21px;
+}
+.table {
+  --mdb-table-font-size: -21.1rem;
+  --mdb-table-divider-color: rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+}
+.mb-1 {
+  margin-bottom: 0.25rem !important;
+}
